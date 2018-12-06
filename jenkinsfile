@@ -12,7 +12,7 @@ pipeline {
    stage('Clone repository') {
       steps {
         checkout scm
-        echo "Sudhakar"
+        echo "maven 3.6"
         echo "$MYJOB"
         echo "$BUILD"
       }
