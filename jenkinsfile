@@ -17,7 +17,7 @@ pipeline {
           stage('createAnInstance')
               {
           steps {
-                          sh 'this i tmp step'
+                sh 'this is tmp step'
                     }
                     }
          }
